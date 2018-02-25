@@ -1,0 +1,144 @@
+aside {
+	height: 100%;
+}
+.wrap-sidebar {
+	.sidebar {
+		.card-body {
+			border: none;
+		}
+	}
+	border-right: 1px solid lighten($black-color, 86%);
+	padding-left: 4rem;
+    height: 100%;
+	.logo {
+    	padding-top: 2rem;
+	    padding-left: 3rem;
+		a {
+			font-size: 18px;
+			font-weight: 300;
+			letter-spacing: 1px;
+			color: $black-color;
+		}
+	}
+	.nav {
+		.nav-item {
+			margin-bottom: 1rem;
+			span {
+				float: left;
+			    margin-top: 5px;
+			}
+		}
+		.nav-link {
+			font-size: 14px;
+			font-weight: 500;
+		    padding: 0.5rem 0rem 0.5rem 2rem;
+			color: $black-color;
+			&.active {
+				border-right: 5px solid lighten($black-color, 75%);
+			}
+		}
+		&.list-menu {
+	    	margin-top: 4rem;
+		}
+		&.channel-group {
+			border-top: 1px solid lighten($black-color, 86%);
+		    margin-bottom: 1rem;
+	        margin-right: 2px;
+			.nav-item,
+			.nav-link {
+				overflow: hidden;
+			}
+			.nav-item {
+		    	margin-top: 20px;
+			}
+			.nav-link {
+				font-size: 12px;
+				color: lighten($black-color, 52%);
+				text-transform: uppercase;
+			}
+			span.bg-icon {
+				background-color: lighten($black-color, 76%);
+			    padding: 5px 4px 3px 4px;
+			    border-radius: 4px;
+		        margin-left: 40px;
+			    margin-top: -8px;
+			}
+		}
+		&.golf-channel,
+		&.tennis-channel {
+			.nav-link {
+				overflow: hidden;
+				span {
+					&:last-child {
+				    	margin-left: 4.4rem;
+					}
+				}
+			}
+		}
+		&.tennis-channel {
+			.nav-link {
+				span {
+					&:last-child {
+				    	margin-left: 3.4rem;
+					}
+				}
+			}
+		}
+		&.list-menu-user {
+			.nav-link {
+				overflow: hidden;
+				span {
+					&:last-child {
+					    margin-top: 16px;
+    					margin-left: 14px;
+					}
+				}
+			}
+		}
+		&.list-menu-user {
+			padding-bottom: 2rem;
+			.profile-pic {
+				width: 45px;
+				height: 45px;
+				@include border-radius(50px);
+				overflow: hidden;
+				img {
+					width: 45px;
+					height: 45px;
+					object-fit: cover;
+				}
+			}
+		}
+	}
+	.icon {
+		display: inline-block;
+		&.small {
+			width: 30px;
+			height: 30px;
+		}
+		&.medium {
+			width: 50px;
+			height: 50px;
+		}
+		&.plus-circle {
+			float: left;
+			background: url("../images/icon_plus_cicrle.png") no-repeat;
+			background-size: contain;
+		}
+		&.chevron-bottom {
+			float: left;
+			background: url("../images/icon_chevron_bottom.png") no-repeat;
+			background-size: contain;
+		}
+		&.management {
+			float: left;
+			background: url("../images/icon_management.png") no-repeat;
+			background-size: contain;
+		}
+		&.setting {
+			float: left;
+			background: url("../images/icon_gear.png") no-repeat;
+			background-size: contain;
+		}
+	}
+}

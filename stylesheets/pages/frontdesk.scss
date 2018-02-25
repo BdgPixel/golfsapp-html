@@ -1,0 +1,158 @@
+main.main-content {
+ 	&.front-desk {
+		margin-bottom: 4rem;
+ 	}
+	.wrap-panel-golf,
+	.wrap-panel-tennis {
+		border-bottom: 1px solid lighten($black-color, 86%);
+		.title-panel {
+			h1 {
+				font-size: 18px;
+				font-weight: 400;
+				span {
+					float: left;
+				}
+			}
+		}
+		ul {
+			list-style: none;
+			padding-left: 0px;
+			li {
+				display: inline-block;
+				&:first-child {
+			    	margin-right: -6px;
+				}
+			}
+		}
+		.panel-golf,
+		.panel-tennis {
+		    margin: 50px 0px 0px 0px;
+			overflow: hidden;
+		}
+		.panel-tennis {
+	    	margin: 20px 0px 0px 0px;
+		}
+	}
+	.wrap-panel-tennis {
+    	margin-bottom: 2rem;
+	}
+	.card-golf,
+	.card-tennis {
+		max-width: 100px;
+		margin-bottom: 2rem;
+		h6 {
+		    font-size: 12px;
+    		letter-spacing: 1px;
+    		font-weight: 600;
+		}
+		.card-golf-bg,
+		.card-tennis-bg {
+			height: 100px;
+		    padding: 5px;
+		    background-color: lighten($black-color, 74%);
+		    border: 1px solid lighten($black-color, 64%);
+    		@include border-radius(6px);
+    		margin-bottom: 18px;
+    		position: relative;
+    		.v-align-middle {
+		    	height: 100px;
+    		}
+		}
+		&.add-new {
+			position: relative;
+			.dropdown-divider {
+		    	margin: 0.5rem 10px 0.5rem 10px;
+	    	    border-top: 1px solid lighten($black-color, 73%);
+			}
+			.dropdown-toggle {
+				&:after {
+					display: none;
+				}
+			}
+			.dropdown-menu {
+		        min-width: 13rem;
+			    padding: 0.8rem 0 1rem 0;
+			    box-shadow: 3px 4px 24px rgba(0, 0, 0, 0.2);
+			    transform: translate3d(0px, 0px, 0px) !important;
+			    @include border-radius(6px);
+			    border: transparent;
+				.dropdown-item {
+					font-size: 13px;
+				    padding: 0.25rem 0.8rem;
+				    position: relative;
+				    &:after {
+				    	content: '';
+				    	position: absolute;
+				    	background: url("../images/icon_i.png") no-repeat;
+				    	background-size: contain;
+			    	    width: 30px;
+					    height: 30px;
+					    right: 6px;
+				        top: 6px;
+				    }
+					span {
+						display: block;
+						font-size: 11px;
+						color: lighten($black-color, 80%);
+					}
+					
+				}
+				&.show {
+			        top: 1rem !important;
+    				left: 3.6rem !important;
+				}
+			}
+			a {
+				text-decoration: none;
+				h6 {
+					color: $black-color;
+					text-decoration: none;	
+				}
+			}
+		}
+	}
+	.grid-golf,
+	.grid-tennis {
+		padding-bottom: 1rem;
+		margin-top: 18px;
+		clear: both;
+	}
+	.grid-tennis {
+    	margin-top: 35px;
+	}
+	.icon {
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		&.medium {
+	    	width: 50px;
+    		height: 50px;
+		}
+		&.grid {
+			background: url("../images/icon_column_grid.png") no-repeat;
+			background-size: contain;
+		}
+		&.list {
+			background: url("../images/icon_list_column.png") no-repeat;
+			background-size: contain;
+		}
+		&.chevron-bottom {
+			float: left;
+			background: url("../images/icon_chevron_bottom.png") no-repeat;
+			background-size: contain;
+		    margin-top: -2px;
+    		margin-left: 10px;
+		}
+		&.plus-circle {
+			background: url("../images/icon_plus_cicrle_black.png") no-repeat;
+			background-size: contain;
+		}
+	}
+}
+.wrap-button-add-group-channel {
+ 	margin-left: 2rem;
+	a {
+		color: $black-color;
+		text-decoration: none;	
+	}
+}

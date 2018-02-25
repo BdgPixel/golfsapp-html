@@ -1,0 +1,60 @@
+header {
+	margin-top: 2.8rem;
+	.search-bar {
+		input[type="text"] {
+			background-color: lighten($black-color, 87%);
+			height: 50px;
+			@include border-radius(4px);
+			border: transparent;
+			letter-spacing: 0.8px;
+			padding-left: 20px;
+			@include placeholder {
+				color: $black-color;
+			}
+		}
+		span {
+			font-size: 13px;
+			color: lighten($black-color, 53%);
+		}
+	}
+	a.wrap-cart {
+	    background-color: $white-color;
+	    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	    max-width: 140px;
+        padding: 15px 0px 12px 0px;
+	    @include border-radius(10px);
+	    display: block;
+	    overflow: hidden;
+	    .inner-cart {
+    	    width: 110px;
+		    margin: 0 auto;
+		    overflow: hidden;
+	    }
+	    span {
+	    	float: left;
+		    font-weight: 700;
+    	    margin-top: 8px;
+    	    margin-right: 0px;
+    	    font-size: 13px;
+    	    color: $black-color;
+    	    &.total-cart {
+	    	    background-color: lighten($black-color, 80%);
+			    padding: 5px 12px 4px 12px;
+			    border-radius: 10px;
+			    margin-left: 8px;
+			    margin-top: 4px;
+    	    }
+	    }
+	}
+	.icon {
+		width: 35px;
+		height: 35px;
+		display: inline-block;
+		&.cart {
+			float: left;
+			background: url("../images/icon_cart.png") no-repeat;
+			background-size: contain;
+			margin-right: 4px;
+		}
+	}
+}
