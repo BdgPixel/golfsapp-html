@@ -7,99 +7,99 @@
   border-radius: 10px;
   color: #ffffff;
   padding: 4px 10px 5px 10px; }
-  .badge.circle {
-    width: 30px;
-    height: 30px;
-    padding: 7px 0px;
-    font-size: 15px;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -ms-border-radius: 50px;
-    border-radius: 50px;
-    position: absolute;
-    right: -13px;
-    top: -8px; }
-  .badge.blue {
-    background-color: #4a8ee3; }
-  .badge.red {
-    background-color: #fb3767; }
-  .badge.purple {
-    background-color: #606fc4; }
-  .badge.green-tosca {
-    background-color: #1eafb4; }
-  .badge.orange {
-    background-color: #e44d3c; }
+.badge.circle {
+  width: 30px;
+  height: 30px;
+  padding: 7px 0px;
+  font-size: 15px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  right: -13px;
+  top: -8px; }
+.badge.blue {
+  background-color: #4a8ee3; }
+.badge.red {
+  background-color: #fb3767; }
+.badge.purple {
+  background-color: #606fc4; }
+.badge.green-tosca {
+  background-color: #1eafb4; }
+.badge.orange {
+  background-color: #e44d3c; }
 
 .align-center {
   width: 100%;
   height: 100%;
   display: table; }
-  .align-center .v-align-middle {
-    width: 100%;
-    height: 100%;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle; }
+.align-center .v-align-middle {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; }
 
 header {
   margin-top: 2.8rem; }
-  header .search-bar input[type="text"] {
-    background-color: #f1f1f1;
-    height: 50px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -ms-border-radius: 4px;
-    border-radius: 4px;
-    border: transparent;
-    letter-spacing: 0.8px;
-    padding-left: 20px; }
-    header .search-bar input[type="text"]::-moz-placeholder {
-      color: #131313; }
-    header .search-bar input[type="text"]::-webkit-input-placeholder {
-      color: #131313; }
-    header .search-bar input[type="text"]:-ms-input-placeholder {
-      color: #131313; }
-  header .search-bar span {
-    font-size: 13px;
-    color: #9a9a9a; }
-  header a.wrap-cart {
-    background-color: #ffffff;
-    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    max-width: 140px;
-    padding: 15px 0px 12px 0px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -ms-border-radius: 10px;
+header .search-bar input[type="text"] {
+  background-color: #f1f1f1;
+  height: 50px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  border: transparent;
+  letter-spacing: 0.8px;
+  padding-left: 20px; }
+header .search-bar input[type="text"]::-moz-placeholder {
+  color: #131313; }
+header .search-bar input[type="text"]::-webkit-input-placeholder {
+  color: #131313; }
+header .search-bar input[type="text"]:-ms-input-placeholder {
+  color: #131313; }
+header .search-bar span {
+  font-size: 13px;
+  color: #9a9a9a; }
+header a.wrap-cart {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  max-width: 140px;
+  padding: 15px 0px 12px 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+  overflow: hidden; }
+header a.wrap-cart .inner-cart {
+  width: 110px;
+  margin: 0 auto;
+  overflow: hidden; }
+header a.wrap-cart span {
+  float: left;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-right: 0px;
+  font-size: 13px;
+  color: #131313; }
+  header a.wrap-cart span.total-cart {
+    background-color: #dfdfdf;
+    padding: 5px 12px 4px 12px;
     border-radius: 10px;
-    display: block;
-    overflow: hidden; }
-    header a.wrap-cart .inner-cart {
-      width: 110px;
-      margin: 0 auto;
-      overflow: hidden; }
-    header a.wrap-cart span {
-      float: left;
-      font-weight: 700;
-      margin-top: 8px;
-      margin-right: 0px;
-      font-size: 13px;
-      color: #131313; }
-      header a.wrap-cart span.total-cart {
-        background-color: #dfdfdf;
-        padding: 5px 12px 4px 12px;
-        border-radius: 10px;
-        margin-left: 8px;
-        margin-top: 4px; }
-  header .icon {
-    width: 35px;
-    height: 35px;
-    display: inline-block; }
-    header .icon.cart {
-      float: left;
-      background: url("../images/icon_cart.png") no-repeat;
-      background-size: contain;
-      margin-right: 4px; }
+    margin-left: 8px;
+    margin-top: 4px; }
+header .icon {
+  width: 35px;
+  height: 35px;
+  display: inline-block; }
+header .icon.cart {
+  float: left;
+  background: url("../images/icon_cart.png") no-repeat;
+  background-size: contain;
+  margin-right: 4px; }
 
 aside {
   height: 100%; }
@@ -108,99 +108,99 @@ aside {
   border-right: 1px solid #eeeeee;
   padding-left: 4rem;
   height: 100%; }
-  .wrap-sidebar .sidebar .card-body {
-    border: none; }
-  .wrap-sidebar .logo {
-    padding-top: 2rem;
-    padding-left: 3rem; }
-    .wrap-sidebar .logo a {
-      font-size: 18px;
-      font-weight: 300;
-      letter-spacing: 1px;
-      color: #131313; }
-  .wrap-sidebar .nav .nav-item {
-    margin-bottom: 1rem; }
-    .wrap-sidebar .nav .nav-item span {
-      float: left;
-      margin-top: 5px; }
-  .wrap-sidebar .nav .nav-link {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0.5rem 0rem 0.5rem 2rem;
-    color: #131313; }
-    .wrap-sidebar .nav .nav-link.active {
-      border-right: 5px solid #d2d2d2; }
-  .wrap-sidebar .nav.list-menu {
-    margin-top: 4rem; }
-  .wrap-sidebar .nav.channel-group {
-    border-top: 1px solid #eeeeee;
-    margin-bottom: 1rem;
-    margin-right: 2px; }
-    .wrap-sidebar .nav.channel-group .nav-item,
-    .wrap-sidebar .nav.channel-group .nav-link {
-      overflow: hidden; }
-    .wrap-sidebar .nav.channel-group .nav-item {
-      margin-top: 20px; }
-    .wrap-sidebar .nav.channel-group .nav-link {
-      font-size: 12px;
-      color: #989898;
-      text-transform: uppercase; }
-    .wrap-sidebar .nav.channel-group span.bg-icon {
-      background-color: #d5d5d5;
-      padding: 5px 4px 3px 4px;
-      border-radius: 4px;
-      margin-left: 40px;
-      margin-top: -8px; }
-  .wrap-sidebar .nav.golf-channel .nav-link, .wrap-sidebar .nav.tennis-channel .nav-link {
-    overflow: hidden; }
-    .wrap-sidebar .nav.golf-channel .nav-link span:last-child, .wrap-sidebar .nav.tennis-channel .nav-link span:last-child {
-      margin-left: 4.4rem; }
-  .wrap-sidebar .nav.tennis-channel .nav-link span:last-child {
-    margin-left: 3.4rem; }
-  .wrap-sidebar .nav.list-menu-user .nav-link {
-    overflow: hidden; }
-    .wrap-sidebar .nav.list-menu-user .nav-link span:last-child {
-      margin-top: 16px;
-      margin-left: 14px; }
-  .wrap-sidebar .nav.list-menu-user {
-    padding-bottom: 2rem; }
-    .wrap-sidebar .nav.list-menu-user .profile-pic {
-      width: 45px;
-      height: 45px;
-      -moz-border-radius: 50px;
-      -webkit-border-radius: 50px;
-      -ms-border-radius: 50px;
-      border-radius: 50px;
-      overflow: hidden; }
-      .wrap-sidebar .nav.list-menu-user .profile-pic img {
-        width: 45px;
-        height: 45px;
-        -o-object-fit: cover;
-        object-fit: cover; }
-  .wrap-sidebar .icon {
-    display: inline-block; }
-    .wrap-sidebar .icon.small {
-      width: 30px;
-      height: 30px; }
-    .wrap-sidebar .icon.medium {
-      width: 50px;
-      height: 50px; }
-    .wrap-sidebar .icon.plus-circle {
-      float: left;
-      background: url("../images/icon_plus_cicrle.png") no-repeat;
-      background-size: contain; }
-    .wrap-sidebar .icon.chevron-bottom {
-      float: left;
-      background: url("../images/icon_chevron_bottom.png") no-repeat;
-      background-size: contain; }
-    .wrap-sidebar .icon.management {
-      float: left;
-      background: url("../images/icon_management.png") no-repeat;
-      background-size: contain; }
-    .wrap-sidebar .icon.setting {
-      float: left;
-      background: url("../images/icon_gear.png") no-repeat;
-      background-size: contain; }
+.wrap-sidebar .sidebar .card-body {
+  border: none; }
+.wrap-sidebar .logo {
+  padding-top: 2rem;
+  padding-left: 3rem; }
+.wrap-sidebar .logo a {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #131313; }
+.wrap-sidebar .nav .nav-item {
+  margin-bottom: 1rem; }
+.wrap-sidebar .nav .nav-item span {
+  float: left;
+  margin-top: 5px; }
+.wrap-sidebar .nav .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.5rem 0rem 0.5rem 2rem;
+  color: #131313; }
+.wrap-sidebar .nav .nav-link.active {
+  border-right: 5px solid #d2d2d2; }
+.wrap-sidebar .nav.list-menu {
+  margin-top: 4rem; }
+.wrap-sidebar .nav.channel-group {
+  border-top: 1px solid #eeeeee;
+  margin-bottom: 1rem;
+  margin-right: 2px; }
+.wrap-sidebar .nav.channel-group .nav-item,
+.wrap-sidebar .nav.channel-group .nav-link {
+  overflow: hidden; }
+.wrap-sidebar .nav.channel-group .nav-item {
+  margin-top: 20px; }
+.wrap-sidebar .nav.channel-group .nav-link {
+  font-size: 12px;
+  color: #989898;
+  text-transform: uppercase; }
+.wrap-sidebar .nav.channel-group span.bg-icon {
+  background-color: #d5d5d5;
+  padding: 5px 4px 3px 4px;
+  border-radius: 4px;
+  margin-left: 40px;
+  margin-top: -8px; }
+.wrap-sidebar .nav.golf-channel .nav-link, .wrap-sidebar .nav.tennis-channel .nav-link {
+  overflow: hidden; }
+.wrap-sidebar .nav.golf-channel .nav-link span:last-child, .wrap-sidebar .nav.tennis-channel .nav-link span:last-child {
+  margin-left: 4.4rem; }
+.wrap-sidebar .nav.tennis-channel .nav-link span:last-child {
+  margin-left: 3.4rem; }
+.wrap-sidebar .nav.list-menu-user .nav-link {
+  overflow: hidden; }
+.wrap-sidebar .nav.list-menu-user .nav-link span:last-child {
+  margin-top: 16px;
+  margin-left: 14px; }
+.wrap-sidebar .nav.list-menu-user {
+  padding-bottom: 2rem; }
+.wrap-sidebar .nav.list-menu-user .profile-pic {
+  width: 45px;
+  height: 45px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  overflow: hidden; }
+.wrap-sidebar .nav.list-menu-user .profile-pic img {
+  width: 45px;
+  height: 45px;
+  -o-object-fit: cover;
+  object-fit: cover; }
+.wrap-sidebar .icon {
+  display: inline-block; }
+.wrap-sidebar .icon.small {
+  width: 30px;
+  height: 30px; }
+.wrap-sidebar .icon.medium {
+  width: 50px;
+  height: 50px; }
+.wrap-sidebar .icon.plus-circle {
+  float: left;
+  background: url("../images/icon_plus_cicrle.png") no-repeat;
+  background-size: contain; }
+.wrap-sidebar .icon.chevron-bottom {
+  float: left;
+  background: url("../images/icon_chevron_bottom.png") no-repeat;
+  background-size: contain; }
+.wrap-sidebar .icon.management {
+  float: left;
+  background: url("../images/icon_management.png") no-repeat;
+  background-size: contain; }
+.wrap-sidebar .icon.setting {
+  float: left;
+  background: url("../images/icon_gear.png") no-repeat;
+  background-size: contain; }
 
 main.main-content.front-desk {
   margin-bottom: 4rem; }
@@ -208,32 +208,32 @@ main.main-content.front-desk {
 main.main-content .wrap-panel-golf,
 main.main-content .wrap-panel-tennis {
   border-bottom: 1px solid #eeeeee; }
-  main.main-content .wrap-panel-golf .title-panel h1,
-  main.main-content .wrap-panel-tennis .title-panel h1 {
-    font-size: 18px;
-    font-weight: 400; }
-    main.main-content .wrap-panel-golf .title-panel h1 span,
-    main.main-content .wrap-panel-tennis .title-panel h1 span {
-      float: left; }
-  main.main-content .wrap-panel-golf ul,
-  main.main-content .wrap-panel-tennis ul {
-    list-style: none;
-    padding-left: 0px; }
-    main.main-content .wrap-panel-golf ul li,
-    main.main-content .wrap-panel-tennis ul li {
-      display: inline-block; }
-      main.main-content .wrap-panel-golf ul li:first-child,
-      main.main-content .wrap-panel-tennis ul li:first-child {
-        margin-right: -6px; }
-  main.main-content .wrap-panel-golf .panel-golf,
-  main.main-content .wrap-panel-golf .panel-tennis,
-  main.main-content .wrap-panel-tennis .panel-golf,
-  main.main-content .wrap-panel-tennis .panel-tennis {
-    margin: 50px 0px 0px 0px;
-    overflow: hidden; }
-  main.main-content .wrap-panel-golf .panel-tennis,
-  main.main-content .wrap-panel-tennis .panel-tennis {
-    margin: 20px 0px 0px 0px; }
+main.main-content .wrap-panel-golf .title-panel h1,
+main.main-content .wrap-panel-tennis .title-panel h1 {
+  font-size: 18px;
+  font-weight: 400; }
+main.main-content .wrap-panel-golf .title-panel h1 span,
+main.main-content .wrap-panel-tennis .title-panel h1 span {
+  float: left; }
+main.main-content .wrap-panel-golf ul,
+main.main-content .wrap-panel-tennis ul {
+  list-style: none;
+  padding-left: 0px; }
+main.main-content .wrap-panel-golf ul li,
+main.main-content .wrap-panel-tennis ul li {
+  display: inline-block; }
+main.main-content .wrap-panel-golf ul li:first-child,
+main.main-content .wrap-panel-tennis ul li:first-child {
+  margin-right: -6px; }
+main.main-content .wrap-panel-golf .panel-golf,
+main.main-content .wrap-panel-golf .panel-tennis,
+main.main-content .wrap-panel-tennis .panel-golf,
+main.main-content .wrap-panel-tennis .panel-tennis {
+  margin: 50px 0px 0px 0px;
+  overflow: hidden; }
+main.main-content .wrap-panel-golf .panel-tennis,
+main.main-content .wrap-panel-tennis .panel-tennis {
+  margin: 20px 0px 0px 0px; }
 
 main.main-content .wrap-panel-tennis {
   margin-bottom: 2rem; }
@@ -242,84 +242,83 @@ main.main-content .card-golf,
 main.main-content .card-tennis {
   max-width: 100px;
   margin-bottom: 2rem; }
-  main.main-content .card-golf h6,
-  main.main-content .card-tennis h6 {
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-weight: 600; }
-  main.main-content .card-golf .card-golf-bg,
-  main.main-content .card-golf .card-tennis-bg,
-  main.main-content .card-tennis .card-golf-bg,
-  main.main-content .card-tennis .card-tennis-bg {
-    height: 100px;
-    padding: 5px;
-    background-color: #d0d0d0;
-    border: 1px solid #b6b6b6;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -ms-border-radius: 6px;
-    border-radius: 6px;
-    margin-bottom: 18px;
-    position: relative; }
-    main.main-content .card-golf .card-golf-bg .v-align-middle,
-    main.main-content .card-golf .card-tennis-bg .v-align-middle,
-    main.main-content .card-tennis .card-golf-bg .v-align-middle,
-    main.main-content .card-tennis .card-tennis-bg .v-align-middle {
-      height: 100px; }
-  main.main-content .card-golf.add-new,
-  main.main-content .card-tennis.add-new {
-    position: relative; }
-    main.main-content .card-golf.add-new .dropdown-divider,
-    main.main-content .card-tennis.add-new .dropdown-divider {
-      margin: 0.5rem 10px 0.5rem 10px;
-      border-top: 1px solid #cdcdcd; }
-    main.main-content .card-golf.add-new .dropdown-toggle:after,
-    main.main-content .card-tennis.add-new .dropdown-toggle:after {
-      display: none; }
-    main.main-content .card-golf.add-new .dropdown-menu,
-    main.main-content .card-tennis.add-new .dropdown-menu {
-      min-width: 13rem;
-      padding: 0.8rem 0 1rem 0;
-      -webkit-box-shadow: 3px 4px 24px rgba(0, 0, 0, 0.2);
-      box-shadow: 3px 4px 24px rgba(0, 0, 0, 0.2);
-      -webkit-transform: translate3d(0px, 0px, 0px) !important;
-      transform: translate3d(0px, 0px, 0px) !important;
-      -moz-border-radius: 6px;
-      -webkit-border-radius: 6px;
-      -ms-border-radius: 6px;
-      border-radius: 6px;
-      border: transparent; }
-      main.main-content .card-golf.add-new .dropdown-menu .dropdown-item,
-      main.main-content .card-tennis.add-new .dropdown-menu .dropdown-item {
-        font-size: 13px;
-        padding: 0.25rem 0.8rem;
-        position: relative; }
-        main.main-content .card-golf.add-new .dropdown-menu .dropdown-item:after,
-        main.main-content .card-tennis.add-new .dropdown-menu .dropdown-item:after {
-          content: '';
-          position: absolute;
-          background: url("../images/icon_i.png") no-repeat;
-          background-size: contain;
-          width: 30px;
-          height: 30px;
-          right: 6px;
-          top: 6px; }
-        main.main-content .card-golf.add-new .dropdown-menu .dropdown-item span,
-        main.main-content .card-tennis.add-new .dropdown-menu .dropdown-item span {
-          display: block;
-          font-size: 11px;
-          color: #dfdfdf; }
-      main.main-content .card-golf.add-new .dropdown-menu.show,
-      main.main-content .card-tennis.add-new .dropdown-menu.show {
-        top: 1rem !important;
-        left: 3.6rem !important; }
-    main.main-content .card-golf.add-new a,
-    main.main-content .card-tennis.add-new a {
-      text-decoration: none; }
-      main.main-content .card-golf.add-new a h6,
-      main.main-content .card-tennis.add-new a h6 {
-        color: #131313;
-        text-decoration: none; }
+main.main-content .card-golf a,
+main.main-content .card-tennis a {
+  color: #131313; }
+main.main-content .card-golf h6,
+main.main-content .card-tennis h6 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600; }
+main.main-content .card-golf .card-golf-bg,
+main.main-content .card-golf .card-tennis-bg,
+main.main-content .card-tennis .card-golf-bg,
+main.main-content .card-tennis .card-tennis-bg {
+  height: 100px;
+  padding: 5px;
+  background-color: #d0d0d0;
+  border: 1px solid #b6b6b6;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  position: relative; }
+main.main-content .card-golf .card-golf-bg .v-align-middle,
+main.main-content .card-golf .card-tennis-bg .v-align-middle,
+main.main-content .card-tennis .card-golf-bg .v-align-middle,
+main.main-content .card-tennis .card-tennis-bg .v-align-middle {
+  height: 100px; }
+main.main-content .card-golf.add-new,
+main.main-content .card-tennis.add-new {
+  position: relative; }
+main.main-content .card-golf.add-new .dropdown-divider,
+main.main-content .card-tennis.add-new .dropdown-divider {
+  margin: 0.5rem 10px 0.5rem 10px;
+  border-top: 1px solid #cdcdcd; }
+main.main-content .card-golf.add-new .dropdown-toggle:after,
+main.main-content .card-tennis.add-new .dropdown-toggle:after {
+  display: none; }
+main.main-content .card-golf.add-new .dropdown-menu,
+main.main-content .card-tennis.add-new .dropdown-menu {
+  min-width: 13rem;
+  padding: 0.8rem 0 1rem 0;
+  -webkit-box-shadow: 3px 4px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 4px 24px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(0px, 0px, 0px) !important;
+  transform: translate3d(0px, 0px, 0px) !important;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+  border: transparent; }
+main.main-content .card-golf.add-new .dropdown-menu .dropdown-item,
+main.main-content .card-tennis.add-new .dropdown-menu .dropdown-item {
+  font-size: 13px;
+  padding: 0.25rem 0.8rem;
+  position: relative; }
+main.main-content .card-golf.add-new .dropdown-menu .dropdown-item:after,
+main.main-content .card-tennis.add-new .dropdown-menu .dropdown-item:after {
+  content: '';
+  position: absolute;
+  background: url("../images/icon_i.png") no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  right: 6px;
+  top: 6px; }
+main.main-content .card-golf.add-new .dropdown-menu .dropdown-item span,
+main.main-content .card-tennis.add-new .dropdown-menu .dropdown-item span {
+  display: block;
+  font-size: 11px;
+  color: #dfdfdf; }
+main.main-content .card-golf.add-new .dropdown-menu.show,
+main.main-content .card-tennis.add-new .dropdown-menu.show {
+  top: 1rem !important;
+  left: 3.6rem !important; }
+main.main-content .card-golf.add-new a h6,
+main.main-content .card-tennis.add-new a h6 {
+  color: #131313; }
 
 main.main-content .grid-golf,
 main.main-content .grid-tennis {
@@ -334,24 +333,24 @@ main.main-content .icon {
   width: 30px;
   height: 30px;
   display: inline-block; }
-  main.main-content .icon.medium {
-    width: 50px;
-    height: 50px; }
-  main.main-content .icon.grid {
-    background: url("../images/icon_column_grid.png") no-repeat;
-    background-size: contain; }
-  main.main-content .icon.list {
-    background: url("../images/icon_list_column.png") no-repeat;
-    background-size: contain; }
-  main.main-content .icon.chevron-bottom {
-    float: left;
-    background: url("../images/icon_chevron_bottom.png") no-repeat;
-    background-size: contain;
-    margin-top: -2px;
-    margin-left: 10px; }
-  main.main-content .icon.plus-circle {
-    background: url("../images/icon_plus_cicrle_black.png") no-repeat;
-    background-size: contain; }
+main.main-content .icon.medium {
+  width: 50px;
+  height: 50px; }
+main.main-content .icon.grid {
+  background: url("../images/icon_column_grid.png") no-repeat;
+  background-size: contain; }
+main.main-content .icon.list {
+  background: url("../images/icon_list_column.png") no-repeat;
+  background-size: contain; }
+main.main-content .icon.chevron-bottom {
+  float: left;
+  background: url("../images/icon_chevron_bottom.png") no-repeat;
+  background-size: contain;
+  margin-top: -2px;
+  margin-left: 10px; }
+main.main-content .icon.plus-circle {
+  background: url("../images/icon_plus_cicrle_black.png") no-repeat;
+  background-size: contain; }
 
 .wrap-button-add-group-channel {
   margin-left: 2rem; }

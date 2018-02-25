@@ -40,6 +40,9 @@ main.main-content {
 	.card-tennis {
 		max-width: 100px;
 		margin-bottom: 2rem;
+		a {
+			color: $black-color;	
+		}
 		h6 {
 		    font-size: 12px;
     		letter-spacing: 1px;
@@ -103,10 +106,8 @@ main.main-content {
 				}
 			}
 			a {
-				text-decoration: none;
 				h6 {
 					color: $black-color;
-					text-decoration: none;	
 				}
 			}
 		}
